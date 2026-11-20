@@ -1,0 +1,13 @@
+{
+  "name": "dns-delegation-lame-referral-analyzer",
+  "version": "1.0.0",
+  "description": "离线权威 DNS 委派分析器：从快照还原解析路径，识别断链、瘸腿委派与 CNAME 冲突",
+  "type": "module",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "analyze": "node src/cli.js"
+  }
+}
